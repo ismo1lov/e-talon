@@ -1,35 +1,151 @@
-/* Navbar */
-
 .navbar {
   background-color: var(--neutral-white);
+  position: relative;
+  z-index: 100;
 }
 
-.navbar-content{
-  padding: 20px 0;
+.navbar-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 15vh;
 }
 
-.logo{
-  width: 130px;
+.logo {
+  width: 150px;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.link{
+.link {
   text-decoration: 0;
   color: var(--neutral-d-gray);
-  font-size: 14px;
-  transition: .5s;
+  font-size: 16px;
+  transition: 0.5s;
 }
 
-.link:hover{
+.link:hover {
   transform: scale(1.1);
 }
 
+select {
+  padding: 10px 40px 10px 10px; /* o'ngga joy qoldiring arrow uchun */
+  appearance: none; /* arrowni olib tashlaydi */
+  -webkit-appearance: none; /* Safari/Chrome uchun */
+  -moz-appearance: none; /* Firefox uchun */
+  padding: 10px 30px;
+  outline: 2px solid var(--primary);
+  border: 0;
+  color: var(--primary);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-weight: 600;
+}
 
+select:hover {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+}
+
+/* Tablet */
+input {
+  display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        transition: height 0.5s ease;
+        background-color: white; 
+        z-index: 200;
+        box-shadow: 0 5px 10px var(--neutral-d-gray);
+    }
+
+    .menu a:hover{
+      font-size: 20px;
+    }
+
+    .menu a:nth-child(1) {
+        margin-top: 25px;
+    }
+
+
+    label {
+        width: 45px;
+        height: 30px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    label div {
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background-color: var(--primary);
+        border-radius: 20px;
+        transition: 0.4s;
+    }
+
+    label div:nth-child(1) {
+        top: 0;
+    }
+
+    label div:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    label div:nth-child(3) {
+        top: 100%;
+        transform: translateY(-100%);
+    }
+
+    input:checked + header .menu {
+        height: 70vh;
+    }
+
+    input:checked + header label div:nth-child(1) {
+        top: 50%;
+        transform: rotate(45deg);
+    }
+
+    input:checked + header label div:nth-child(2) {
+        transform: scale(0);
+    }
+
+    input:checked + header label div:nth-child(3) {
+        top: 50%;
+        transform: rotate(-45deg);
+    }
+
+    .logo {
+  width: 120px;
+}
+
+}
+
+@media (max-width: 500px){
+.logo {
+  width: 100px;
+}
+
+label {
+        width: 35px;
+        height: 20px;
+        position: relative;
+        cursor: pointer;
+    }
+
+}

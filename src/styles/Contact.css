@@ -1,0 +1,134 @@
+.contact {
+  background-color: var(--neutral-silver);
+}
+
+.contact-content {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+
+.contact img {
+  width: 45%;
+}
+
+.contact .text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 60%;
+}
+
+.customer h1 {
+  color: var(--neutral-d-grey);
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact .box {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact h3 {
+  color: var(--primary);
+  font-size: 25px;
+}
+
+.contact p {
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact p:hover {
+  transform: translateX(15px);
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .contact-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+  }
+
+  .contact img {
+    width: 300px;
+  }
+
+  .contact .text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+
+  .contact h1 {
+    color: var(--neutral-d-grey);
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contact .box {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact h3 {
+    color: var(--primary);
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+  }
+
+  .contact img {
+    width: 200px;
+  }
+
+  .contact h1{
+    color: var(--neutral-d-grey);
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contact .box {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact h3 {
+    color: var(--primary);
+    font-size: 20px;
+  }
+
+  
+.contact p {
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+}

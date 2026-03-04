@@ -5,9 +5,9 @@ import Community from './components/Community'
 import Unlock from './components/Unlock'
 import Achivements from './components/Achievements'
 import Calendar from './components/Calendar'
-import Customer from './components/Customer'
+import Contact from './components/Contact'
 import Update from './components/Updates'
-import Demo from './components/Demo'
+import Register from './components/Register'
 import Footer from './components/Footer'
 
 import { useEffect } from "react";
@@ -33,11 +33,10 @@ const App = () => {
             <Unlock/>
             <Achivements/>
             <Calendar/>
-            <Customer/>
+            <Contact/>
             <Update/>
-            <Demo/>
+            <Register/>
           </main>
-          <Footer/>
         </>
     )
 }

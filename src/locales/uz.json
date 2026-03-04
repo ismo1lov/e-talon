@@ -1,0 +1,81 @@
+{
+  "home": "Bosh sahifa",
+  "features": "Imkoniyatlar",
+  "community": "Hamjamiyat",
+  "blog": "Blog",
+  "pricing": "Narxlar",
+
+  "hero_title_1": "8 yillik tajribadan",
+  "hero_title_2": "saboqlar va insightlar",
+  "hero_desc": "Fotograf biznesini qayerda rivojlantirish: sayt yoki ijtimoiy tarmoqlar?",
+  "register": "Ro‘yxatdan o‘tish",
+
+  "clients_title": "Mijozlarimiz",
+  "clients_desc": "Biz Fortune 500+ kompaniyalar bilan ishlaymiz",
+
+  "community_title_1": "Butun hamjamiyatni boshqaring",
+  "community_title_2": "bitta tizimda",
+  "community_desc": "Nextcent kimlar uchun mos?",
+
+  "card1_title_1": "A’zolik",
+  "card1_title_2": "Tashkilotlari",
+
+  "card2_title_1": "Milliy",
+  "card2_title_2": "Assotsiatsiyalar",
+
+  "card3_title_1": "Klublar va",
+  "card3_title_2": "Guruhlar",
+
+  "card_desc": "Dasturimiz a’zolikni yangilash va to‘lovlarni to‘liq avtomatlashtiradi",
+
+  "unlock_title_1": "Pixelgrade’da uch yil",
+  "unlock_title_2": "sarflangan vaqtning yashirin tomoni",
+  "unlock_desc": "Lorem ipsum matni. Bu yerda kompaniya haqida ma’lumot beriladi.",
+  "learn_more": "Batafsil",
+
+  "ach_title_1": "Mahalliy biznesga",
+  "ach_title_2": "o‘zini yangilashga yordam beramiz",
+  "ach_desc": "Biz bu natijaga mehnat va fidoyilik bilan erishdik",
+
+  "members": "A’zolar",
+  "clubs": "Klublar",
+  "event_booking": "Tadbir bronlari",
+  "payments": "To‘lovlar",
+
+  "calendar_title_1": "Sayt footerini qanday",
+  "calendar_title_2": "biz kabi dizayn qilish",
+  "calendar_desc": "Bu yerda kompaniya haqida batafsil ma’lumot yoziladi.",
+
+  "contact_us": "Bog‘lanish",
+  "address": "Manzil",
+  "address_text": "Toshkent shahri, Olmazor tumani, Shifonur ko‘chasi 3/1",
+  "phone_numbers": "Telefon raqamlar",
+  "email": "Elektron pochta",
+
+  "update_title": "G‘amxo‘rlik — yangi marketing",
+  "update_desc": "Nextcent blogi eng so‘nggi yangiliklar va trendlarni o‘qish uchun eng yaxshi joy.",
+
+  "read_more": "Batafsil",
+
+  "register_title_1": "Guruhimizga",
+  "register_title_2": "qo‘shilish uchun ro‘yxatdan o‘ting",
+  "register_btn": "Ro‘yxatdan o‘tish",
+  "name": "Ism",
+  "lastname": "Familiya",
+  "phone": "Telefon raqam",
+  "send": "Yuborish",
+
+  "footer-copyright-1": "Mualliflik huquqi © 2020 Landify UI Kit.",
+  "footer-copyright-2": "Barcha huquqlar himoyalangan.",
+
+  "list-title-1": "Kompaniya",
+  "list-title-2": "Qo‘llab-quvvatlash",
+  "list-title-3": "Yangiliklardan xabardor bo‘ling",
+  "list-link-1": "Biz haqimizda",
+  "list-link-2": "Blog",
+  "list-link-3": "Bog‘lanish",
+  "list-link-4": "Yordam markazi",
+  "list-link-5": "Xizmat ko‘rsatish shartlari",
+  "list-link-6": "Yuridik",
+  "list-input-placeholder": "Sizning elektron manzilingiz"
+}

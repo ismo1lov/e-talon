@@ -1,0 +1,81 @@
+{
+  "home": "Главная",
+  "features": "Возможности",
+  "community": "Сообщество",
+  "blog": "Блог",
+  "pricing": "Цены",
+
+  "hero_title_1": "Уроки и инсайты",
+  "hero_title_2": "за 8 лет",
+  "hero_desc": "Где развивать бизнес фотографу: сайт или соцсети?",
+  "register": "Регистрация",
+
+  "clients_title": "Наши клиенты",
+  "clients_desc": "Мы работаем с компаниями из списка Fortune 500+",
+
+  "community_title_1": "Управляйте всем сообществом",
+  "community_title_2": "в одной системе",
+  "community_desc": "Кому подходит Nextcent?",
+
+  "card1_title_1": "Членские",
+  "card1_title_2": "Организации",
+
+  "card2_title_1": "Национальные",
+  "card2_title_2": "Ассоциации",
+
+  "card3_title_1": "Клубы и",
+  "card3_title_2": "Группы",
+
+  "card_desc": "Наше программное обеспечение полностью автоматизирует продление членства и платежи",
+
+   "unlock_title_1": "Невидимые аспекты трёх лет",
+  "unlock_title_2": "работы в Pixelgrade",
+  "unlock_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla.",
+  "learn_more": "Подробнее",
+
+  "ach_title_1": "Помогаем местному",
+  "ach_title_2": "бизнесу reinvent себя",
+  "ach_desc": "Мы достигли этого благодаря упорной работе и преданности",
+
+  "members": "Участники",
+  "clubs": "Клубы",
+  "event_booking": "Бронирования",
+  "payments": "Платежи",
+
+  "calendar_title_1": "Как оформить футер сайта",
+  "calendar_title_2": "как сделали мы",
+  "calendar_desc": "Donec a eros justo. Fusce egestas tristique ultrices...",
+  
+  "contact_us": "Связаться с нами",
+  "address": "Адрес",
+  "address_text": "Город Ташкент, Алмазарский район, улица Шифонур 3/1",
+  "phone_numbers": "Телефоны",
+  "email": "Электронная почта",
+
+  "update_title": "Забота — новый маркетинг",
+  "update_desc": "Блог Nextcent — лучшее место для чтения последних новостей и трендов.",
+
+  "read_more": "Подробнее",
+
+  "register_title_1": "Зарегистрируйтесь",
+  "register_title_2": "чтобы присоединиться к нашей группе",
+  "register_btn": "Регистрация",
+  "name": "Имя",
+  "lastname": "Фамилия",
+  "phone": "Номер телефона",
+  "send": "Отправить",
+
+  "footer-copyright-1": "Авторские права © 2020 Landify UI Kit.",
+  "footer-copyright-2": "Все права защищены.",
+
+  "list-title-1": "Компания",
+  "list-title-2": "Поддерживать",
+  "list-title-3": "Будьте в курсе событий",
+  "list-link-1": "О нас",
+  "list-link-2": "Блог",
+  "list-link-3": "Связаться с нами",
+  "list-link-4": "Центр поддержки",
+  "list-link-5": "Условия предоставления услуг",
+  "list-link-6": "Юридические",
+  "list-input-placeholder":"Ваш электронный адрес"
+}

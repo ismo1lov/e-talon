@@ -13,7 +13,7 @@
 
   /* Primary / Secondary / Info */
 
-  --primary: #28cb8b;
+  --primary: #007025;
   --secondary: #263238;
   --info: #2194f3;
 
@@ -47,7 +47,10 @@
   font-family: sans-serif;
   scroll-behavior: smooth;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
+
+
 
 .container {
   max-width: 1200px;
@@ -66,6 +69,7 @@
   border: 0;
   transition: 0.3s;
   cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
@@ -86,4 +90,11 @@
 
 .btn-secondary:hover{
   background-color: var(--tint-4);
+}
+
+@media (max-width: 768px){
+  .container{
+    width: 90%;
+    margin: auto;
+  }
 }

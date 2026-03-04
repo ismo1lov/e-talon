@@ -1,0 +1,81 @@
+{
+  "home": "Home",
+  "features": "Features",
+  "community": "Community",
+  "blog": "Blog",
+  "pricing": "Pricing",
+
+  "hero_title_1": "Lessons and insights",
+  "hero_title_2": "from 8 years",
+  "hero_desc": "Where to grow your business as a photographer: site or social media?",
+  "register": "Register",
+
+  "clients_title": "Our Clients",
+  "clients_desc": "We have been working with some Fortune 500+ clients",
+
+  "community_title_1": "Manage your entire community",
+  "community_title_2": "in a single system",
+  "community_desc": "Who is Nextcent suitable for?",
+
+  "card1_title_1": "Membership",
+  "card1_title_2": "Organisations",
+
+  "card2_title_1": "National",
+  "card2_title_2": "Associations",
+
+  "card3_title_1": "Clubs And",
+  "card3_title_2": "Groups",
+
+  "card_desc": "Our membership management software provides full automation of membership renewals and payments",
+
+  "unlock_title_1": "The unseen of spending three",
+  "unlock_title_2": "years at Pixelgrade",
+  "unlock_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "learn_more": "Learn More",
+
+  "ach_title_1": "Helping a local",
+  "ach_title_2": "business reinvent itself",
+  "ach_desc": "We reached here with our hard work and dedication",
+
+  "members": "Members",
+  "clubs": "Clubs",
+  "event_booking": "Event Booking",
+  "payments": "Payments",
+
+  "calendar_title_1": "How to design your site footer",
+  "calendar_title_2": "like we did",
+  "calendar_desc": "Donec a eros justo. Fusce egestas tristique ultrices.",
+
+  "contact_us": "Contact Us",
+  "address": "Address",
+  "address_text": "Tashkent city, Almazar district, Shifonur street 3/1",
+  "phone_numbers": "Phone Numbers",
+  "email": "Email",
+
+  "update_title": "Caring is the new marketing",
+  "update_desc": "The Nextcent blog is the best place to read about latest trends.",
+
+  "read_more": "Read More",
+
+  "register_title_1": "Register for join",
+  "register_title_2": "our group",
+  "register_btn": "Register",
+  "name": "Name",
+  "lastname": "Lastname",
+  "phone": "Phone number",
+  "send": "Send",
+
+  "footer-copyright-1": "Copyright © 2020 Landify UI Kit.",
+  "footer-copyright-2": "All rights reserved.",
+
+  "list-title-1": "Company",
+  "list-title-2": "Support",
+  "list-title-3": "Stay Updated",
+  "list-link-1": "About Us",
+  "list-link-2": "Blog",
+  "list-link-3": "Contact Us",
+  "list-link-4": "Help Center",
+  "list-link-5": "Terms of Service",
+  "list-link-6": "Legal",
+  "list-input-placeholder": "Your email address"
+}

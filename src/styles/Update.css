@@ -3,9 +3,10 @@
 }
 
 .update-content{
-    padding: 100px 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -69,3 +70,103 @@
 .description .card p{
     color: var(--neutral-grey);
 } 
+
+/* responsive */
+
+@media (max-width: 768px){
+    
+.update-content{
+    height: auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.update h1{
+    color: var(--neutral-d-grey);
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.update p{
+    color: var(--neutral-grey);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.description .card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+}
+
+
+@media (max-width: 500px){
+    
+.update-content{
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.update h1{
+    color: var(--neutral-d-grey);
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.update p{
+    color: var(--neutral-grey);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.description .card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.description .card p{
+    font-size: 14px;
+}
+
+.description .btn-secondary{
+    font-size: 15px;
+}
+
+}

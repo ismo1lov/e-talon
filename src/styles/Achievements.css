@@ -1,3 +1,4 @@
+
 .achievements {
   background-color: var(--neutral-silver);
 }
@@ -76,3 +77,88 @@
 .status .child-4 {
   margin-left: 30px;
 }
+
+/* responsive */
+
+@media (max-width: 768px){
+  
+.achievements-content {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.achievements .text-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.achievements h1 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.achievements p {
+  color: var(--neutral-black);
+  margin-bottom: 20px;
+}
+
+
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.status .parent-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.status .child-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.status .child-box:hover {
+  transform: translate(7px, -7px);
+  box-shadow: -7px 7px 8px var(--shade-3);
+}
+
+.status .child-box img {
+  width: 50px;
+}
+
+.status .child-box div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status .child-box h3 {
+  color: var(--neutral-d-grey);
+  font-size: 22px;
+}
+
+.status .child-box p {
+  font-size: 15px;
+  color: var(--neutral-grey);
+}
+
+.status .child-4 {
+  margin-left: 30px;
+}
+}
+
