@@ -107,7 +107,7 @@
   }
 
   .community .card {
-    width: 100%;
+    width: 90%;
     padding: 30px 20px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px var(--neutral-l-grey);

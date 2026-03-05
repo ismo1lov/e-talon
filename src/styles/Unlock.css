@@ -77,4 +77,16 @@
     font-size: 20px;
     line-height: 25px;
   }
+
+  .unlock-content {
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    width: 100%;
+  }
 }
