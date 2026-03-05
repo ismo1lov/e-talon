@@ -133,8 +133,8 @@
 
 .update h1{
     color: var(--neutral-d-grey);
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -162,11 +162,16 @@
   text-align: center;
 }
 .description .card p{
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .description .btn-secondary{
-    font-size: 15px;
+    font-size: 8px;
+}
+
+.description .card div{
+    padding: 15px;
+    gap: 10px;
 }
 
 }
