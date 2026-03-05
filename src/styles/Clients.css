@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 500){
+@media (max-width: 500px){
   .clients h1 {
     font-size: 25px;
     text-align: center;
