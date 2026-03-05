@@ -63,7 +63,7 @@
   }
 
   .contact img {
-    width: 300px;
+    display: none;
   }
 
   .contact .text-box {
@@ -103,9 +103,6 @@
     padding: 50px;
   }
 
-  .contact img {
-    width: 200px;
-  }
 
   .contact h1{
     color: var(--neutral-d-grey);
