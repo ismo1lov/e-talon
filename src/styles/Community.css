@@ -105,4 +105,24 @@
     font-size: 25px;
     line-height: 35px;
   }
+
+  .community .card {
+    width: 100%;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px var(--neutral-l-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: 0.5s;
+  }
+  
+  .community .card .title{
+    font-size: 18px;
+  }
+
+  .community .card p{
+    font-size: 12px;
+  }
 }
