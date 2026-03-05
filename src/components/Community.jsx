@@ -1,6 +1,6 @@
 import "../styles/Community.css";
 import { useTranslation } from "react-i18next";
-import Card from "./Card";
+import Card from "./card.jsx";
 
 const Community = () => {
   const { t } = useTranslation();
