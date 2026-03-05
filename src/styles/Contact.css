@@ -109,7 +109,8 @@
 
   .contact h1{
     color: var(--neutral-d-grey);
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 25px;
     text-align: center;
   }
 
