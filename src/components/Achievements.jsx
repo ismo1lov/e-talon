@@ -1,6 +1,6 @@
 import "../styles/Achievements.css";
 import { useTranslation } from "react-i18next";
-import Status from "./Status";
+import Status from "./status.jsx";
 
 const Achievements = () => {
   const { t } = useTranslation();

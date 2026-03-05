@@ -1,5 +1,5 @@
 import "../styles/Footer.css";
-import List from "./lists";
+import List from "./lists.jsx";
 import { useTranslation } from "react-i18next";
 
 

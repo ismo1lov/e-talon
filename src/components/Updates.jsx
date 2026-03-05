@@ -1,6 +1,6 @@
 import "../styles/Update.css";
 import { useTranslation } from "react-i18next";
-import Description from "./Description";
+import Description from "./description.jsx";
 
 const Update = () => {
   const { t } = useTranslation();
