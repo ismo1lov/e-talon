@@ -109,10 +109,14 @@
 
   .contact h1{
     color: var(--neutral-d-grey);
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 30px;
     text-align: center;
   }
+
+    .contact .text-box{
+      gap: 20px;
+    }
 
   .contact .box {
     margin-bottom: 15px;
@@ -123,12 +127,12 @@
 
   .contact h3 {
     color: var(--primary);
-    font-size: 20px;
+    font-size: 16px;
   }
 
   
 .contact p {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   transition: 0.3s;
 }
