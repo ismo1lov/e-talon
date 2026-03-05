@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <>
-    <input type="checkbox" id="menu"></input>
-    <header data-aos="fade-down" data-aos-easing="linear" className="navbar">
+    <input type="checkbox" className="check-input" id="menu"></input>
+    <header data-aos="fade-down" data-aos-easing="linear" id="home" className="navbar">
       <div className="container">
         <div className="navbar-content">
           <a href="#">
@@ -27,11 +27,12 @@ const Navbar = () => {
           </label>
 
           <ul className="menu">
-            <a href="#" className="link">{t("home")}</a>
-            <a href="#" className="link">{t("features")}</a>
-            <a href="#" className="link">{t("community")}</a>
-            <a href="#" className="link">{t("blog")}</a>
-            <a href="#" className="link">{t("pricing")}</a>
+            <a href="#home" className="link">{t("home")}</a>
+            <a href="#community" className="link">{t("community")}</a>
+            <a href="#features" className="link">{t("features")}</a>
+            <a href="#contact" className="link">{t("contact")}</a>
+            <a href="#register" className="link">{t("registe")}</a>
+            
 
             <select onChange={changeLanguage} value={i18n.language}>
               <option value="ru">Рус</option>

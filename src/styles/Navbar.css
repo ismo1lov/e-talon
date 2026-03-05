@@ -53,7 +53,7 @@ select:hover {
 }
 
 /* Tablet */
-input {
+.check-input {
   display: none;
 }
 

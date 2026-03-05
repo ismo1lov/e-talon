@@ -2,8 +2,8 @@
   "home": "Bosh sahifa",
   "features": "Imkoniyatlar",
   "community": "Hamjamiyat",
-  "blog": "Blog",
-  "pricing": "Narxlar",
+  "contact": "Aloqa",
+  "registe": "Ro‘yxatdan o‘tish",
 
   "hero_title_1": "8 yillik tajribadan",
   "hero_title_2": "saboqlar va insightlar",
@@ -28,10 +28,11 @@
 
   "card_desc": "Dasturimiz a’zolikni yangilash va to‘lovlarni to‘liq avtomatlashtiradi",
 
-  "unlock_title_1": "Pixelgrade’da uch yil",
-  "unlock_title_2": "sarflangan vaqtning yashirin tomoni",
-  "unlock_desc": "Lorem ipsum matni. Bu yerda kompaniya haqida ma’lumot beriladi.",
-  "learn_more": "Batafsil",
+  "unlock_heading": "Asosiy imkoniyatlar",
+  "unlock_title_1": "Ovqatlanishni hisobga olish va nazoratni avtomatlashtirish",
+  "unlock_title_2": "Hisobot va kirish huquqini boshqarish",
+  "unlock_p_1": "Tizim xodimlar haqidagi ma’lumotlarni 1C:ZUP tizimidan avtomatik import qiladi — jumladan F.I.Sh., lavozimi, tabel raqami, filiali va talon limiti. Har bir xodim o‘zining ID kartasi orqali aniqlanadi, bu esa berilgan va ishlatilgan talonlarni aniq hisobga olish hamda oylik limitlarni real vaqt rejimida nazorat qilish imkonini beradi.",
+  "unlock_p_2": "E-talon filiallar, bo‘limlar va xodimlar kategoriyalari bo‘yicha umumiy hisobotlar hamda analitika yaratadi. Interfeys rollar bo‘yicha ajratilgan: HR bo‘limi, buxgalteriya va operatorlar faqat o‘z mas’uliyat hududiga kirish huquqiga ega bo‘ladi. Bu esa tizim xavfsizligi va boshqaruvini oshiradi.",
 
   "ach_title_1": "Mahalliy biznesga",
   "ach_title_2": "o‘zini yangilashga yordam beramiz",

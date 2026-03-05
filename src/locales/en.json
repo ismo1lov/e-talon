@@ -2,8 +2,8 @@
   "home": "Home",
   "features": "Features",
   "community": "Community",
-  "blog": "Blog",
-  "pricing": "Pricing",
+  "contact": "Contact",
+  "registe": "Register",
 
   "hero_title_1": "Lessons and insights",
   "hero_title_2": "from 8 years",
@@ -28,10 +28,11 @@
 
   "card_desc": "Our membership management software provides full automation of membership renewals and payments",
 
-  "unlock_title_1": "The unseen of spending three",
-  "unlock_title_2": "years at Pixelgrade",
-  "unlock_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "learn_more": "Learn More",
+  "unlock_heading": "Main Features",
+  "unlock_title_1": "Automation of Meal Accounting and Control",
+  "unlock_title_2": "Reporting and Access Management",
+  "unlock_p_1": "The system automatically imports employee data from 1C:ZUP — including full name, position, employee ID number, branch, and coupon limits. Each employee is identified by their ID card, ensuring accurate tracking of issued and used coupons and monitoring monthly limits in real time.",
+  "unlock_p_2": "E-talon generates summary reports and analytics by branches, departments, and employee categories. The interface is divided by roles: the HR department, accounting, and operators have access only to their areas of responsibility, which increases the security and manageability of the system.",
 
   "ach_title_1": "Helping a local",
   "ach_title_2": "business reinvent itself",

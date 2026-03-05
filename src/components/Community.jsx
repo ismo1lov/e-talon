@@ -6,7 +6,7 @@ const Community = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="community">
+    <section className="community" id="community">
       <div className="container">
         <div className="community-content">
           <h1 data-aos="zoom-out">

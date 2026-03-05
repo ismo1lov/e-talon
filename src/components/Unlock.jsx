@@ -6,20 +6,20 @@ const Unlock = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="unlock">
+    <section className="unlock" id="features">
       <div className="container">
         <div className="unlock-content">
           <img data-aos="fade-right" src={Frame} alt="Frame" />
-
           <div data-aos="fade-left" className="text-box">
-            <h1>
-              {t("unlock_title_1")} <br />
-              {t("unlock_title_2")}
-            </h1>
-
-            <p>{t("unlock_desc")}</p>
-
-            <button className="btn">{t("learn_more")}</button>
+            <h1>{t("unlock_heading")}</h1>
+            <h2>{t("unlock_title_1")}</h2>
+            <p>
+              {t("unlock_p_1")}
+            </p>
+            <h2>{t("unlock_title_2")}</h2>
+            <p>
+              {t("unlock_p_2")}
+            </p>
           </div>
         </div>
       </div>
