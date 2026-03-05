@@ -65,6 +65,7 @@
 }
 
 .modal form input {
+  display: block;
   width: 90%;
   background-color: var(--neutral-silver);
   color: var(--neutral-d-grey);
@@ -102,10 +103,73 @@
     color: var(--neutral-black);
     margin-bottom: 40px;
   }
+
+  
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(62, 62, 62, 0.5);
+  backdrop-filter: blur(5px);
+  z-index: 99;
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  padding: 10px 17px;
+  color: white;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+.modal h1 {
+  font-size: 35px;
+  color: var(--neutral-d-grey);
+  margin-bottom: 20px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.modal form input {
+  width: 90%;
+  background-color: var(--neutral-silver);
+  color: var(--neutral-d-grey);
+}
+
+.modal form button {
+  width: 90%;
+  margin: 20px 0;
 }
 
 
-@media (max-width: 768px) {
+}
+
+
+@media (max-width: 500px) {
   .register-content {
     padding: 50px 0;
     text-align: center;
