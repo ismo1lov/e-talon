@@ -58,94 +58,100 @@ input {
 }
 
 @media (max-width: 768px) {
-    .menu {
-        position: absolute;
-        top: 75px;
-        left: 0;
-        width: 100%;
-        height: 0;
-        flex-direction: column;
-        text-align: center;
-        overflow: hidden;
-        transition: height 0.5s ease;
-        background-color: white; 
-        z-index: 200;
-        box-shadow: 0 5px 10px var(--neutral-d-gray);
-    }
+  .menu {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    transition: height 0.5s ease;
+    background-color: white;
+    z-index: 200;
+    box-shadow: 0 5px 10px var(--neutral-d-gray);
+  }
 
-    .menu a:hover{
-      font-size: 20px;
-    }
+  .menu a:hover {
+    font-size: 20px;
+  }
 
-    .menu a:nth-child(1) {
-        margin-top: 25px;
-    }
+  .menu a:nth-child(1) {
+    margin-top: 25px;
+  }
 
+  label {
+    width: 45px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+  }
 
-    label {
-        width: 45px;
-        height: 30px;
-        position: relative;
-        cursor: pointer;
-    }
+  label div {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: var(--primary);
+    border-radius: 20px;
+    transition: 0.4s;
+  }
 
-    label div {
-        position: absolute;
-        height: 5px;
-        width: 100%;
-        background-color: var(--primary);
-        border-radius: 20px;
-        transition: 0.4s;
-    }
+  label div:nth-child(1) {
+    top: 0;
+  }
 
-    label div:nth-child(1) {
-        top: 0;
-    }
+  label div:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-    label div:nth-child(2) {
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  label div:nth-child(3) {
+    top: 100%;
+    transform: translateY(-100%);
+  }
 
-    label div:nth-child(3) {
-        top: 100%;
-        transform: translateY(-100%);
-    }
+  input:checked + header .menu {
+    height: 70vh;
+  }
 
-    input:checked + header .menu {
-        height: 70vh;
-    }
+  input:checked + header label div:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
 
-    input:checked + header label div:nth-child(1) {
-        top: 50%;
-        transform: rotate(45deg);
-    }
+  input:checked + header label div:nth-child(2) {
+    transform: scale(0);
+  }
 
-    input:checked + header label div:nth-child(2) {
-        transform: scale(0);
-    }
+  input:checked + header label div:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
 
-    input:checked + header label div:nth-child(3) {
-        top: 50%;
-        transform: rotate(-45deg);
-    }
-
-    .logo {
-  width: 120px;
+  .logo {
+    width: 120px;
+  }
 }
 
-}
+@media (max-width: 500px) {
+  .logo {
+    width: 100px;
+  }
 
-@media (max-width: 500px){
-.logo {
-  width: 100px;
-}
+  label {
+    width: 25px;
+    height: 15px;
+    position: relative;
+    cursor: pointer;
+  }
 
-label {
-        width: 35px;
-        height: 20px;
-        position: relative;
-        cursor: pointer;
-    }
-
+  label div {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: var(--primary);
+    border-radius: 20px;
+    transition: 0.4s;
+  }
 }
