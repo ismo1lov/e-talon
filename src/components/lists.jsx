@@ -19,13 +19,12 @@ const List = ()=>{
                 <a href="#">{t("list-link-5")}</a>
                 <a href="#">{t("list-link-6")}</a>
             </div>
-            <div className="list-box">
+            <div className="list-box" id='form-box'>
                 <h3 className="title">{t("list-title-3")}</h3>
                 <form action="">
                     <input type="email" name='email' placeholder={t("list-input-placeholder")}/>
                     <button className='input-btn'><i class="bi bi-send"></i></button>
                 </form>
-                
             </div>
         </div>
     )
