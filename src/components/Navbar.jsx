@@ -20,7 +20,7 @@ const Navbar = () => {
             <img src="/logo.svg" className="logo" />
           </a>
 
-          <label for="menu">
+          <label htmlFor="menu">
             <div></div> 
             <div></div> 
             <div></div> 

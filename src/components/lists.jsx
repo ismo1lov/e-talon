@@ -23,7 +23,7 @@ const List = ()=>{
                 <h3 className="title">{t("list-title-3")}</h3>
                 <form action="">
                     <input type="email" name='email' placeholder={t("list-input-placeholder")}/>
-                    <button className='input-btn'><i class="bi bi-send"></i></button>
+                    <button className='input-btn'><i className="bi bi-send"></i></button>
                 </form>
             </div>
         </div>
