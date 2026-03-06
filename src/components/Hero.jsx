@@ -1,6 +1,7 @@
 import "../styles/Hero.css";
 import illustration from "../assets/Illustration.png";
 import { useTranslation } from "react-i18next";
+import file from "../assets/file.pdf"
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -17,7 +18,7 @@ const Hero = () => {
 
             <p>{t("hero_desc")}</p>
 
-            <a className="btn" href="#register">
+            <a className="btn"  href={file} target="_blank">
               {t("register")} →
             </a>
           </div>

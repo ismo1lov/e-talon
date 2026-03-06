@@ -13,12 +13,6 @@ const Clients = () => {
 
           <div className="grid-box">
             <img data-aos="flip-up" className="logo" src="../images/Logo-1.svg" />
-            <img data-aos="flip-down" className="logo" src="../images/Logo-2.svg" />
-            <img data-aos="flip-up" className="logo" src="../images/Logo-3.svg" />
-            <img data-aos="flip-down" className="logo" src="../images/Logo-4.svg" />
-            <img data-aos="flip-up" className="logo" src="../images/Logo-5.svg" />
-            <img data-aos="flip-down" className="logo" src="../images/Logo-6.svg" />
-            <img data-aos="flip-up" className="logo" src="../images/Logo-7.svg" />
           </div>
         </div>
       </div>

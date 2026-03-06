@@ -43,7 +43,7 @@
   
 .calendar-content {
   height: auto;
-  padding: 100px;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +59,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
+  text-align: center;
 }
 
 .calendar h1 {
@@ -111,4 +114,17 @@
 .calendar .btn {
   width: 100%;
 }
+}
+
+@media (max-width: 500px){
+.calendar h1 {
+  color: var(--neutral-d-grey);
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.calendar p{
+  font-size: 14px;
+}
+
 }

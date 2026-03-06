@@ -1,7 +1,7 @@
 .navbar {
   background-color: var(--neutral-white);
   position: relative;
-  z-index: 100;
+  z-index: 201;
 }
 
 .navbar-content {
@@ -32,24 +32,64 @@
   transform: scale(1.1);
 }
 
-select {
-  padding: 10px 40px 10px 10px; /* o'ngga joy qoldiring arrow uchun */
-  appearance: none; /* arrowni olib tashlaydi */
-  -webkit-appearance: none; /* Safari/Chrome uchun */
-  -moz-appearance: none; /* Firefox uchun */
-  padding: 10px 30px;
-  outline: 2px solid var(--primary);
-  border: 0;
-  color: var(--primary);
-  transition: 0.3s;
-  border-radius: 5px;
-  margin-left: 20px;
-  font-weight: 600;
+.lang-switcher {
+  position: relative;
+  margin-left: 15px;
+  cursor: pointer;
 }
 
-select:hover {
-  background-color: var(--primary);
-  color: var(--neutral-white);
+.lang-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--neutral-silver);
+}
+
+.lang-dropdown {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background: var(--neutral-white);
+  border-radius: 10px;
+  padding: 10px;
+  width: 140px;
+  z-index: 100;
+  box-shadow: 0 0 10px var(--neutral-grey);
+}
+
+.lang-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.lang-item span {
+  color: var(--neutral-d-grey);
+  font-size: 12px;
+}
+
+.lang-item:hover {
+  transform: scale(1.1);
+}
+
+.lang-btn img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+}
+
+.lang-item img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 /* Tablet */
@@ -58,6 +98,7 @@ select:hover {
 }
 
 @media (max-width: 768px) {
+  
   .menu {
     position: absolute;
     top: 75px;
@@ -70,7 +111,7 @@ select:hover {
     transition: height 0.5s ease;
     background-color: white;
     z-index: 200;
-    box-shadow: 0 5px 10px var(--neutral-d-gray);
+    box-shadow: 0 5px 3px #a4a3a3;
   }
 
   .menu a:hover {
@@ -132,9 +173,25 @@ select:hover {
   .logo {
     width: 120px;
   }
+
+  .lang-dropdown {
+    position: absolute;
+    left: 70px;
+    top: -55px;
+  }
 }
 
 @media (max-width: 500px) {
+
+  .navbar-content{
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .menu {
+    top: 65px;
+  }
+
   .logo {
     width: 100px;
   }

@@ -135,17 +135,15 @@
 .update h1{
     color: var(--neutral-d-grey);
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
     text-align: center;
 }
 
 .update p{
     color: var(--neutral-grey);
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
-
-
 
 .description{
     display: flex;

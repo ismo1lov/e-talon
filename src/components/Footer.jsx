@@ -12,8 +12,7 @@ const Footer = () => {
         <div data-aos="fade-down" className="footer-content">
           <div className="logo-box">
             <a href="#"><img src="./logo.svg" alt="logo" /></a>
-            <p>{t("footer-copyright-1")} <br />
-            {t("footer-copyright-2")}</p>
+            <p>{t("footer-copyright")}</p>
             <div className="social-box">
                 <a href="https://www.instagram.com/odilsoft.uz/"><i className="bi bi-instagram"></i></a>
                 <a href="https://twitter.com"><i className="bi bi-twitter"></i></a>

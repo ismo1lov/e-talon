@@ -5,28 +5,43 @@
   "contact": "Aloqa",
   "registe": "Ro‘yxatdan o‘tish",
 
-  "hero_title_1": "8 yillik tajribadan",
-  "hero_title_2": "saboqlar va insightlar",
-  "hero_desc": "Fotograf biznesini qayerda rivojlantirish: sayt yoki ijtimoiy tarmoqlar?",
-  "register": "Ro‘yxatdan o‘tish",
+  "hero_title_1": "Korporativ ovqatlanishni",
+  "hero_title_2": "raqamli avtomatlashtirish",
+  "hero_desc": "Byudjetni nazorat qilish, tushlik taqsimotini kuzatish va shaffof tahlil uchun yagona platforma. Alohida yoki 1C:ZUP bilan integratsiyalashgan holda ishlaydi.",
+  "register": "Tizim haqida ko'proq bilib oling",
 
   "clients_title": "Mijozlarimiz",
-  "clients_desc": "Biz Fortune kompaniyalar bilan ishlaymiz",
+  "clients_desc": "Biz mashhur kompaniyalar bilan ishlaymiz",
 
-  "community_title_1": "Butun hamjamiyatni boshqaring",
-  "community_title_2": "bitta tizimda",
-  "community_desc": "Nextcent kimlar uchun mos?",
+  "community_title_1": "Korporativ ovqatlanishingizni",
+  "community_title_2": "bitta tizimda oshqaring",
+  "community_desc": "Shaffof limitlarni kuzatishdan tortib, avtomatlashtirilgan buxgalteriya hisobotlarigacha, E-talon xodimlarni, oshxonani va rahbariyatni yagona, samarali jarayonga bog'laydi.",
+ "community_btn": "Bepul demo olish",
 
-  "card1_title_1": "A’zolik",
-  "card1_title_2": "Tashkilotlari",
+  "card1_title_1": "Ishlab chiqarish",
+  "card1_title_2": "korxonalari",
 
-  "card2_title_1": "Milliy",
-  "card2_title_2": "Assotsiatsiyalar",
+  "card2_title_1": "Korporativ ofislar",
+  "card2_title_2": "va IT markazlari",
 
-  "card3_title_1": "Klublar va",
-  "card3_title_2": "Guruhlar",
+  "card3_title_1": "Qurilish va logistika",
+  "card3_title_2": "markazlari",
 
-  "card_desc": "Dasturimiz a’zolikni yangilash va to‘lovlarni to‘liq avtomatlashtiradi",
+  "card4_title_1": "Kichik va o‘rta",
+  "card4_title_2": "biznes",
+
+  "card5_title_1": "Katering",
+  "card5_title_2": "kompaniyalari",
+
+  "card6_title_1": "Davlat idoralari va yirik",
+  "card6_title_2": "tashkilotlar",
+
+  "card_desc-1": "Yuzlab xodimlar uchun ovqatlanishni avtomatlashtiring. Talonlarni suiiste’mol qilishni yo‘q qiling va oshxona byudjetini aniq raqamli hisob-kitob orqali optimallashtiring.",
+  "card_desc-2": "Jamoangiz uchun zamonaviy xizmat: Telegram orqali menyu oldindan buyurtma qilishdan tortib HR va buxgalteriya uchun avtomatik hisobotlargacha.",
+  "card_desc-3": "Masofadagi obyektlarda ovqat hisobini bir kunda tashkil eting. Minimal uskuna — maksimal xarajat nazorati, hatto maydon sharoitida ham.",
+  "card_desc-4": "Murakkab o‘rnatishlar yoki qimmat dasturlarisiz to‘liq ovqat nazorati. Darhol ishlashni boshlang — sodda, arzon va foydali.",
+  "card_desc-5": "Biznesingizni kengaytirish uchun vosita. Mijozlaringizga faqat ovqat emas, balki shaffof raqamli hisob-kitob xizmatini taklif eting.",
+  "card_desc-6": "Filiallarni boshqarish uchun yagona raqamli muhit. Shaffof tahlil, qat’iy limit nazorati va to‘liq real vaqt hisobotlari.",
 
   "unlock_heading": "Asosiy imkoniyatlar",
   "unlock_title_1": "Ovqatlanishni hisobga olish va nazoratni avtomatlashtirish",
@@ -34,8 +49,8 @@
   "unlock_p_1": "Tizim xodimlar haqidagi ma’lumotlarni 1C:ZUP tizimidan avtomatik import qiladi — jumladan F.I.Sh., lavozimi, tabel raqami, filiali va talon limiti. Har bir xodim o‘zining ID kartasi orqali aniqlanadi, bu esa berilgan va ishlatilgan talonlarni aniq hisobga olish hamda oylik limitlarni real vaqt rejimida nazorat qilish imkonini beradi.",
   "unlock_p_2": "E-talon filiallar, bo‘limlar va xodimlar kategoriyalari bo‘yicha umumiy hisobotlar hamda analitika yaratadi. Interfeys rollar bo‘yicha ajratilgan: HR bo‘limi, buxgalteriya va operatorlar faqat o‘z mas’uliyat hududiga kirish huquqiga ega bo‘ladi. Bu esa tizim xavfsizligi va boshqaruvini oshiradi.",
 
-  "ach_title_1": "Mahalliy biznesga",
-  "ach_title_2": "o‘zini yangilashga yordam beramiz",
+  "ach_title_1": "Mahalliy biznesga o'zlarini",
+  "ach_title_2": "qayta kashf etishga yordam berish",
   "ach_desc": "Biz bu natijaga mehnat va fidoyilik bilan erishdik",
 
   "members": "A’zolar",
@@ -54,7 +69,7 @@
   "email": "Elektron pochta",
 
   "update_title": "G‘amxo‘rlik — yangi marketing",
-  "update_desc": "Nextcent blogi eng so‘nggi yangiliklar va trendlarni o‘qish uchun eng yaxshi joy.",
+  "update_desc": "E-talon blogi eng so‘nggi yangiliklar va trendlarni o‘qish uchun eng yaxshi joy.",
 
   "read_more": "Batafsil",
 
@@ -66,8 +81,9 @@
   "phone": "Telefon raqam",
   "send": "Yuborish",
 
-  "footer-copyright-1": "Mualliflik huquqi © 2020 Landify UI Kit.",
-  "footer-copyright-2": "Barcha huquqlar himoyalangan.",
+  "description": "Xavfsizlik bo'yicha sizning majburiyatlaringiz qanday va ularni qanday boshqarishingiz mumkin?",
+
+  "footer-copyright": "© 2025 E-talon. Barcha huquqlar himoyalangan.",
 
   "list-title-1": "Kompaniya",
   "list-title-2": "Qo‘llab-quvvatlash",

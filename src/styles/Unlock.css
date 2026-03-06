@@ -22,7 +22,7 @@
 }
 
 .unlock h1 {
-  color: var(--neutral-d-grey);
+  color: var(--primary);
   font-size: 40px;
   line-height: 50px;
 }
@@ -61,9 +61,13 @@
   }
 
   .unlock h1 {
-    color: var(--neutral-d-grey);
+    color: var(--primary);
     font-size: 30px;
     line-height: 35px;
+  }
+
+  .unlock h2 {
+    font-size: 20px;
   }
 
   .unlock .btn {
@@ -71,10 +75,22 @@
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
+  .unlock-content{
+    gap: 35px;
+  }
+
   .unlock h1 {
-    color: var(--neutral-d-grey);
-    font-size: 20px;
-    line-height: 25px;
+    color: var(--primary);
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .unlock h2{
+    font-size: 18px;
+  }
+
+  .unlock p{
+    font-size: 12px;
   }
 }

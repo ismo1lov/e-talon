@@ -14,7 +14,7 @@ const Description = () => {
           <img src={img} alt="image" />
           <div>
             <p>
-              What are your safeguarding responsibilities and how can you manage them?
+              {t("description-p")}
             </p>
             <button className="btn-secondary">
               {t("read_more")} →

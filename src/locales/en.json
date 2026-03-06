@@ -5,28 +5,44 @@
   "contact": "Contact",
   "registe": "Register",
 
-  "hero_title_1": "Lessons and insights",
-  "hero_title_2": "from 8 years",
-  "hero_desc": "Where to grow your business as a photographer: site or social media?",
-  "register": "Register",
+  "hero_title_1": "Digital automation of",
+  "hero_title_2": "corporate catering",
+  "hero_desc": "A unified platform for budget control, lunch distribution tracking, and transparent analytics. Works standalone or integrated with 1C:ZUP.",
+  "register": "Learn more about the system",
 
   "clients_title": "Our Clients",
   "clients_desc": "We have been working with some Fortune clients",
 
-  "community_title_1": "Manage your entire community",
-  "community_title_2": "in a single system",
-  "community_desc": "Who is Nextcent suitable for?",
+  "community_title_1": "Manage your corporate catering",
+  "community_title_2": "in one system",
+  "community_desc": "From transparent limit tracking to automated accounting reports, E-talon connects employees, the kitchen, and management into a single, efficient process.",
 
-  "card1_title_1": "Membership",
-  "card1_title_2": "Organisations",
+  "community_btn": "Get a free demo",
 
-  "card2_title_1": "National",
-  "card2_title_2": "Associations",
+  "card1_title_1": "Manufacturing",
+  "card1_title_2": "enterprises",
 
-  "card3_title_1": "Clubs And",
-  "card3_title_2": "Groups",
+  "card2_title_1": "Corporate offices",
+  "card2_title_2": "and IT hubs",
 
-  "card_desc": "Our membership management software provides full automation of membership renewals and payments",
+  "card3_title_1": "Construction and logistics",
+  "card3_title_2": "centers",
+
+  "card4_title_1": "Small and medium",
+  "card4_title_2": "business",
+
+  "card5_title_1": "Catering",
+  "card5_title_2": "companies",
+
+  "card6_title_1": "Government institutions and large",
+  "card6_title_2": "organizations",
+
+  "card_desc-1": "Automate meals for hundreds of employees. Eliminate voucher abuse and optimize cafeteria budgets with precise digital accounting.",
+  "card_desc-2": "A modern service for your team: from pre-ordering menus via Telegram to instant automatic reports for HR and accounting.",
+  "card_desc-3": "Manage meal accounting at remote sites in just one day. Minimal equipment — maximum expense control, even in the field.",
+  "card_desc-4": "Full meal control without complex implementations or expensive software. Start working immediately — simple, affordable, and efficient.",
+  "card_desc-5": "A tool to scale your business. Give your clients more than just food — offer them a transparent digital accounting service.",
+  "card_desc-6": "A unified digital environment for managing branches. Transparent analytics, strict limit control, and full real-time reporting.",
 
   "unlock_heading": "Main Features",
   "unlock_title_1": "Automation of Meal Accounting and Control",
@@ -54,7 +70,7 @@
   "email": "Email",
 
   "update_title": "Caring is the new marketing",
-  "update_desc": "The Nextcent blog is the best place to read about latest trends.",
+  "update_desc": "The E-talon blog is the best place to read about latest trends.",
 
   "read_more": "Read More",
 
@@ -66,8 +82,10 @@
   "phone": "Phone number",
   "send": "Send",
 
-  "footer-copyright-1": "Copyright © 2020 Landify UI Kit.",
-  "footer-copyright-2": "All rights reserved.",
+  "description-p": "What are your safeguarding responsibilities and how can you manage them?",
+
+
+  "footer-copyright": "© 2025 E-talon. All rights reserved.",
 
   "list-title-1": "Company",
   "list-title-2": "Support",
