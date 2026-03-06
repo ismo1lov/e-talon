@@ -2,7 +2,7 @@ import "../styles/Achievements.css";
 import { useTranslation } from "react-i18next";
 
 import Icon1 from "../assets/achev-icon-1.svg";
-import Icon2 from "../assets/card-icon-3.svg";
+import Icon2 from "../assets/achev-icon-2.svg";
 import Icon3 from "../assets/achev-icon-3.svg";
 import Icon4 from "../assets/achev-icon-4.svg";
 

@@ -26,7 +26,7 @@ const Card = () => {
         </div>
 
         <div data-aos="fade-left" className="card">
-          <i class="bi bi-tools"></i>
+          <i className="bi bi-tools"></i>
           <h2 className="title">
             {t("card3_title_1")} <br />
             {t("card3_title_2")}
