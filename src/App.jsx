@@ -34,7 +34,7 @@ const App = () => {
             <Calendar/>
             <Contact/>
           </main>
-          <Footer/>
+          <Footer/> 
         </>
     )
 }
