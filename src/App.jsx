@@ -6,8 +6,7 @@ import Unlock from './components/Unlock'
 import Achivements from './components/Achievements'
 import Calendar from './components/Calendar'
 import Contact from './components/Contact'
-// import Update from './components/Updates'
-// import Register from './components/Register'
+
 import Footer from './components/Footer'
 
 import { useEffect } from "react";
@@ -34,8 +33,6 @@ const App = () => {
             <Achivements/>
             <Calendar/>
             <Contact/>
-            {/* <Update/>
-            <Register/> */}
           </main>
           <Footer/>
         </>
